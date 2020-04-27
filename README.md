@@ -1,7 +1,7 @@
 # News-virality
 ## Crawling news & information websites & anticipating the likelihood of its virality.
 
-This repo aims at predicting the virality of news scraped from different websites using random forest regressor model.
+This repo aims at predicting the virality of news scraped from different websites using random forest regression model.
 
 NewsScraper.py is used to scrape the article from any given website.
 test_news_scraper.py tests if NewsScraper.py is working properly based on certain unittests.
