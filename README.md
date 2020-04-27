@@ -16,7 +16,7 @@ News crawled from times of india website. (full data at crawled_news.csv)
 The dataset used for training the model is Online News Popularity dataset available at uci.edu. This dataset has a total of 61 attributes its description is available in the dataset_attribtes.txt file.
 
 
-The file preprocess.py has necessary functions for preprocessing the raw scraped data and converting it to a form sililar to the original dataset.
+The file preprocess.py has necessary functions for preprocessing the raw scraped data and converting it to a form similar to the original dataset.
 
 The file train_and_save_model.py trains a random forest regression model on the Online News popularity Dataset certain columns have been dropped while training since those columns were not available for the newly crawled data. The file trains and save the model in .pkl form. The feature importance given to the different features by the model is as follows-
 ![feature_importance](https://user-images.githubusercontent.com/43816262/80426848-388f2080-8904-11ea-8ecf-c01397659284.png)
