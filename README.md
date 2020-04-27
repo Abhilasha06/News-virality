@@ -22,7 +22,7 @@ The file train_and_save_model.py trains a random forest regression model on the 
 ![feature_importance](https://user-images.githubusercontent.com/43816262/80426848-388f2080-8904-11ea-8ecf-c01397659284.png)
 
 Finally the notebook test_and_visualize_times_of_india_site.ipynb contains the predictions on the crawled data, it uses the above mentioned files for crawling, preprocessing and loding the model and predicts the virality of the news. The final title of the news along with the predicted virality is saved as predicted_virality.csv and sort_by_virality.csv (sorted in descending order).
-Here are a few of the predictions-
+Here are a few of the predictions (sorted in descending order of virality)-
 
 <img width="627" alt="c" src="https://user-images.githubusercontent.com/43816262/80427189-d1be3700-8904-11ea-99c9-065bbdb447ea.png">
 
